@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria - BORCELLE LA CAFE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="Imagens/logo.png" alt="Logo da Cafeteria">
+            <ul class="navigators">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <h1>BORCELLE LA CAFE</h1>
+        <p>O sabor que desperta o seu dia. Venha conhecer nossos cafés especiais!</p>
+        <button onclick="location.href='#cardapio'">Ver Cardápio</button>
+    </section>
+
+    <section id="cardapio" class="cardapio">
+        <h1>Nosso Cardápio</h1>
+        <div class="cardapio-grid">
+            <!-- 15 produtos -->
+            <div class="item"><img src="Imagens/produtos/paocomovo.webp"><h3>Pão com Ovo</h3><p>R$ 5,00</p></div>
+            <div class="item"><img src="Imagens/produtos/paonachapa.webp"><h3>Pão na Chapa</h3><p>R$ 7,00</p></div>
+            <div class="item"><img src="Imagens/produtos/queijoquente.webp"><h3>Queijo Quente</h3><p>R$ 8,00</p></div>
+            <div class="item"><img src="Imagens/produtos/torradaamericana.webp"><h3>Torrada Americana</h3><p>R$ 6,50</p></div>
+            <div class="item"><img src="Imagens/produtos/torradacommel.webp"><h3>Torrada com Mel</h3><p>R$ 9,00</p></div>
+            <div class="item"><img src="Imagens/produtos/hamburguertradicional.webp"><h3>Hamburguer Tradicional</h3><p>R$ 4,50</p></div>
+            <div class="item"><img src="Imagens/produtos/mistoquente.webp"><h3>Misto Quente</h3><p>R$ 10,00</p></div>
+            <div class="item"><img src="Imagens/produtos/cafecoado.webp"><h3>Café Coado</h3><p>R$ 12,00</p></div>
+            <div class="item"><img src="Imagens/produtos/cafeexpresso.webp"><h3>Café Expresso</h3><p>R$ 6,00</p></div>
+            <div class="item"><img src="Imagens/produtos/cafegelado.webp"><h3>Café Gelado</h3><p>R$ 8,50</p></div>
+            <div class="item"><img src="Imagens/produtos/cafemocha.webp"><h3>Café Mocha</h3><p>R$ 11,00</p></div>
+            <div class="item"><img src="Imagens/produtos/capuccino.webp"><h3>Capuccino</h3><p>R$ 5,50</p></div>
+            <div class="item"><img src="Imagens/produtos/chaverde.webp"><h3>Chá Verde</h3><p>R$ 9,50</p></div>
+            <div class="item"><img src="Imagens/produtos/cocacola600.webp"><h3>Coca Cola 600ml</h3><p>R$ 7,50</p></div>
+            <div class="item"><img src="Imagens/produtos/h2O.webp"><h3>H2O</h3><p>R$ 6,80</p></div>
+        </div>
+    </section>
+
+<section id="sobre" class="sobre">
+    <h1>Sobre Nós</h1>
+    <div class="sobre-container">
+        <p>
+            Fundada em <strong>2017</strong>, a Borcelle é uma cafeteria tradicional de família, nascida do amor pelo café e pelo sabor de momentos bem vividos. 
+            Seguimos o legado iniciado em nossa primeira filial, aberta em Paris em <strong>1990</strong>, que até hoje mantém suas portas abertas e é reconhecida internacionalmente pela qualidade e excelência no preparo de cafés especiais.
+        </p>
+        <p>
+            Ao longo dos anos, conquistamos diversas premiações pelo sabor único de nossos cafés e pela experiência acolhedora que oferecemos.
+            Além das bebidas, contamos também com uma lancheira repleta de opções artesanais, preparadas com ingredientes frescos e selecionados.
+        </p>
+        <p>
+            Mais do que servir café, nosso propósito é <em>criar memórias</em>, unindo tradição, qualidade e hospitalidade em cada xícara.
+        </p>
+    </div>
+</section>
+
+<section id="contato" class="contato">
+    <h1>Contato</h1>
+    <div class="contato-info">
+        <a href="tel:+5511999999999" class="contato-item">
+            📞 (11) 99999-9999
+        </a>
+        <a href="mailto:contato@xicarraencantada.com" class="contato-item">
+            ✉️ contato@xicarraencantada.com
+        </a>
+        <a href="https://maps.google.com?q=Rua+do+Café,+123+-+Centro" target="_blank" class="contato-item">
+            📍 Rua do Café, 123 - Centro
+        </a>
+    </div>
+
+    <div class="form-container">
+        <h2>Envie sua sugestão</h2>
+        <form action="#" method="post">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua sugestão..." required></textarea>
+
+            <label for="satisfacao">Satisfação com o atendimento:</label>
+            <select id="satisfacao" name="satisfacao" required>
+                <option value="">Selecione</option>
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="ruim">Ruim</option>
+            </select>
+
+            <button type="submit">Enviar Sugestão</button>
+        </form>
+    </div>
+</section>
+
