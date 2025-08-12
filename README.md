@@ -1,21 +1,20 @@
-#Projeto Site Cafeteria - BORCELLE LA CAFE
-Este projeto é um site institucional desenvolvido para a cafeteria fictícia BORCELLE LA CAFE. Foi criado como trabalho acadêmico para o curso do Senac, com objetivo de aplicar conhecimentos em HTML e CSS para desenvolvimento web responsivo e moderno.
+# Projeto Site Cafeteria - BORCELLE LA CAFE
 
-Funcionalidades
-Layout responsivo com tema roxo escuro.
+Este projeto é um site institucional desenvolvido para a cafeteria fictícia **BORCELLE LA CAFE**. Foi criado como trabalho acadêmico para o curso do **Senac**, com o objetivo de aplicar conhecimentos em HTML e CSS para desenvolvimento web responsivo e moderno.
 
-Navegação fixa no topo com links para Home, Cardápio, Contato e Sobre.
+## Funcionalidades
 
-Seção de cardápio com 15 produtos exibidos em grade, com efeito de hover.
+- Layout responsivo com tema roxo escuro.
+- Navegação fixa no topo com links para Home, Cardápio, Contato e Sobre.
+- Seção de cardápio com 15 produtos exibidos em grade, com efeito de hover.
+- Página Sobre Nós com texto formatado e estilizado.
+- Seção de contato com informações clicáveis (telefone, e-mail e endereço) e formulário para envio de sugestões.
 
-Página sobre nós com texto formatado e estilizado.
+## Tecnologias utilizadas
 
-Seção de contato com informações clicáveis (telefone, email e endereço) e formulário para envio de sugestões.
+- HTML5
+- CSS3 (Flexbox e Grid)
 
-Tecnologias utilizadas
-HTML5
+## Como usar
 
-CSS3 (Flexbox e Grid)
-
-Como usar
-Basta clonar o repositório e abrir o arquivo index.html em qualquer navegador moderno.
+Basta clonar o repositório e abrir o arquivo `index.html` em qualquer navegador moderno.
